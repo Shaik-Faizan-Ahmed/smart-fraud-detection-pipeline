@@ -1,0 +1,11 @@
+account_id,fraud_type,flagged_date
+ACC-00021,card_cloning,2026-01-14
+ACC-00029,money_laundering,2026-01-13
+ACC-00031,phishing,2026-03-08
+ACC-00009,identity_theft,2026-01-18
+ACC-00017,account_takeover,2026-03-08
+ACC-00012,identity_theft,2026-02-07
+ACC-00044,money_laundering,2026-03-28
+ACC-00038,card_cloning,2026-01-13
+ACC-00056,account_takeover,2026-02-20
+ACC-00055,money_laundering,2026-01-03

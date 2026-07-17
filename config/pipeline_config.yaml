@@ -1,0 +1,45 @@
+environment: databricks   # databricks | local
+
+source:
+  accounts_path: "data/raw/accounts.csv"
+  transactions_path: "data/raw/transactions.csv"
+  fraud_watchlist_path: "data/raw/known_fraud_accounts.csv"
+
+tables:
+  bronze:
+    accounts: "bronze_accounts"
+    transactions: "bronze_transactions"
+    fraud_watchlist: "bronze_fraud_watchlist"
+    path_prefix: "delta/bronze"
+
+  silver:
+    enriched_transactions: "silver_enriched_transactions"
+    path_prefix: "delta/silver"
+
+  gold:
+    fraud_transactions: "gold_fraud_transactions"
+    fraud_summary: "gold_fraud_summary"
+    path_prefix: "delta/gold"
+
+silver:
+  null_handling:
+    merchant: "Unknown_Merchant"
+    credit_limit: "median_by_account_type"
+  drop_duplicate_txn_ids: true
+  flag_orphan_transactions: true
+
+gold:
+  high_value_percentile: 0.90
+  risky_kyc_statuses:
+    - pending
+    - rejected
+    - expired
+  risk_levels:
+    - normal
+    - suspicious
+    - confirmed_fraud
+
+output:
+  sample_export_path: "outputs/gold_fraud_transactions_sample.csv"
+  summary_export_path: "outputs/fraud_summary_report.csv"
+  data_quality_report_path: "outputs/data_quality_report.md"

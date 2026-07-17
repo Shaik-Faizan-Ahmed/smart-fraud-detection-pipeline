@@ -1,0 +1,201 @@
+txn_id,account_id,txn_date,txn_type,amount,merchant,city,is_international
+TXN-000001,ACC-00056,2026-01-09,debit,915931.22,,Singapore,yes
+TXN-000002,ACC-00025,2026-01-11,transfer,23892.36,BookMyShow,Bangalore,no
+TXN-000003,ACC-00029,2026-02-03,credit,15277.03,Swiggy,New York,yes
+TXN-000004,ACC-00007,2026-03-05,withdrawal,5498.74,ATM,Delhi,no
+TXN-000005,ACC-00029,2026-02-23,debit,919.78,Flipkart,Chennai,no
+TXN-000006,ACC-00047,2026-02-09,debit,22417.98,Swiggy,Mumbai,no
+TXN-000007,ACC-00003,2026-02-22,transfer,3832.61,BigBasket,Singapore,yes
+TXN-000008,ACC-00037,2026-03-01,withdrawal,11979.58,PhonePe,Delhi,no
+TXN-000009,ACC-00035,2026-01-08,withdrawal,23856.18,Unknown_Merchant,New York,yes
+TXN-000010,ACC-00008,2026-03-19,transfer,8369.32,BookMyShow,Singapore,yes
+TXN-000011,ACC-00004,2026-03-21,debit,9165.62,Unknown_Merchant,London,yes
+TXN-000012,ACC-00006,2026-02-27,transfer,16212.42,Swiggy,Tokyo,yes
+TXN-000013,ACC-00003,2026-03-13,credit,7506.82,PhonePe,Delhi,no
+TXN-000014,ACC-00041,2026-02-23,withdrawal,2167.32,ATM,New York,yes
+TXN-000015,ACC-00048,2026-01-07,debit,4867.66,POS_Terminal,Chennai,no
+TXN-000016,ACC-00016,2026-02-16,debit,19828.84,ATM,Dubai,yes
+TXN-000017,ACC-00032,2026-02-18,debit,974.21,Amazon,London,yes
+TXN-000018,ACC-00047,2026-02-02,debit,5331.37,ATM,Tokyo,yes
+TXN-000019,ACC-00030,2026-03-22,credit,18539.23,Uber,Delhi,no
+TXN-000020,ACC-00003,2026-01-24,withdrawal,16363.1,Airtel,Chennai,no
+TXN-000021,ACC-00003,2026-03-08,credit,521547.81,ATM,Mumbai,no
+TXN-000022,ACC-00020,2026-01-27,withdrawal,15300.09,Unknown_Merchant,Chennai,no
+TXN-000023,ACC-00005,2026-01-27,debit,12453.73,Wire_Transfer,Chennai,no
+TXN-000024,ACC-00015,2026-01-03,withdrawal,8466.71,Unknown_Merchant,Singapore,yes
+TXN-000025,ACC-00021,2026-03-04,payment,13669.83,BigBasket,Lagos,yes
+TXN-000026,ACC-00051,2026-01-19,transfer,1627.39,BookMyShow,Bangalore,no
+TXN-000027,ACC-00049,2026-01-14,transfer,13857.52,Airtel,Lagos,yes
+TXN-000028,ACC-00038,2026-01-02,debit,19786.75,ATM,Chennai,no
+TXN-000029,ACC-00025,2026-01-25,debit,21996.69,Flipkart,Mumbai,no
+TXN-000030,ACC-00001,2026-01-06,payment,22178.53,,New York,yes
+TXN-000031,ACC-00045,2026-01-05,credit,16013.65,IRCTC,New York,yes
+TXN-000032,ACC-00027,2026-01-08,payment,17307.26,MakeMyTrip,Bangalore,no
+TXN-000033,ACC-00046,2026-03-16,debit,15698.43,Wire_Transfer,Dubai,yes
+TXN-000034,ACC-00023,2026-01-14,payment,5929.19,Flipkart,Tokyo,yes
+TXN-000035,ACC-00007,2026-02-20,payment,12713.14,Airtel,Lagos,yes
+TXN-000036,ACC-00018,2026-01-02,debit,19925.49,ATM,New York,yes
+TXN-000037,ACC-00032,2026-01-06,debit,1397.99,BigBasket,Dubai,yes
+TXN-000038,ACC-00014,2026-02-14,transfer,15439.64,Crypto_Exchange,New York,yes
+TXN-000039,ACC-00003,2026-03-04,debit,23125.29,Swiggy,Bangalore,no
+TXN-000040,ACC-00002,2026-03-16,debit,1817.94,Uber,New York,yes
+TXN-000041,ACC-00038,2026-02-19,withdrawal,798127.09,ATM,London,yes
+TXN-000042,ACC-00015,2026-01-25,transfer,5733.16,Uber,Singapore,yes
+TXN-000043,ACC-00013,2026-01-13,debit,11801.21,Airtel,Mumbai,no
+TXN-000044,ACC-00028,2026-01-05,payment,11402.02,PhonePe,London,yes
+TXN-000045,ACC-00009,2026-03-15,credit,15818.93,BookMyShow,Lagos,yes
+TXN-000046,ACC-00022,2026-01-05,payment,1538.31,Swiggy,Delhi,no
+TXN-000047,ACC-00030,2026-02-15,credit,19020.47,Uber,Dubai,yes
+TXN-000048,ACC-00039,2026-03-06,payment,22644.17,MakeMyTrip,Tokyo,yes
+TXN-000049,ACC-00015,2026-02-03,payment,12255.87,Uber,Chennai,no
+TXN-000050,ACC-00031,2026-02-27,transfer,411.87,PhonePe,Lagos,yes
+TXN-000051,ACC-00054,2026-02-11,payment,5599.04,Crypto_Exchange,Chennai,no
+TXN-000052,ACC-00010,2026-01-19,withdrawal,24505.59,Amazon,New York,yes
+TXN-000053,ACC-00047,2026-03-25,debit,10671.16,PhonePe,New York,yes
+TXN-000054,ACC-00045,2026-01-27,withdrawal,12407.36,Flipkart,Tokyo,yes
+TXN-000055,ACC-00049,2026-03-01,withdrawal,23750.85,Swiggy,London,yes
+TXN-000056,ACC-00019,2026-03-08,debit,447.46,ATM,Dubai,yes
+TXN-000057,ACC-00011,2026-02-23,payment,18694.8,Amazon,New York,yes
+TXN-000058,ACC-00030,2026-01-25,withdrawal,4664.4,Unknown_Merchant,London,yes
+TXN-000059,ACC-00041,2026-03-15,debit,21516.55,,Singapore,yes
+TXN-000060,ACC-00045,2026-03-11,debit,7449.92,Wire_Transfer,Dubai,yes
+TXN-000061,ACC-00045,2026-03-20,payment,1691718.13,Wire_Transfer,Delhi,no
+TXN-000062,ACC-00040,2026-03-11,debit,12892.68,Crypto_Exchange,London,yes
+TXN-000063,ACC-00004,2026-02-04,transfer,11660.55,Amazon,London,yes
+TXN-000064,ACC-00024,2026-03-06,payment,17636.6,IRCTC,Lagos,yes
+TXN-000065,ACC-00009,2026-01-11,payment,2883.26,Airtel,Chennai,no
+TXN-000066,ACC-00045,2026-03-07,credit,8045.57,Crypto_Exchange,Dubai,yes
+TXN-000067,ACC-00033,2026-02-22,transfer,1408.78,BigBasket,London,yes
+TXN-000068,ACC-00029,2026-03-16,payment,20747.52,Airtel,Tokyo,yes
+TXN-000069,ACC-00044,2026-03-27,transfer,11326.86,BigBasket,Delhi,no
+TXN-000070,ACC-00013,2026-01-15,debit,9797.53,Swiggy,Dubai,yes
+TXN-000071,ACC-00005,2026-01-04,transfer,2845.01,Swiggy,New York,yes
+TXN-000072,ACC-00010,2026-01-28,payment,23805.01,Amazon,Dubai,yes
+TXN-000073,ACC-00027,2026-03-22,credit,11873.93,PhonePe,New York,yes
+TXN-000074,ACC-00048,2026-01-21,transfer,4767.06,Amazon,Lagos,yes
+TXN-000075,ACC-00034,2026-02-21,withdrawal,14488.68,ATM,London,yes
+TXN-000076,ACC-00058,2026-03-19,payment,21055.6,Airtel,New York,yes
+TXN-000077,ACC-00020,2026-01-19,transfer,4334.84,BookMyShow,Lagos,yes
+TXN-000078,ACC-00031,2026-02-12,debit,3751.04,BookMyShow,New York,yes
+TXN-000079,ACC-00011,2026-01-20,payment,7166.9,Swiggy,Bangalore,no
+TXN-000080,ACC-00011,2026-01-08,debit,24844.64,MakeMyTrip,Bangalore,no
+TXN-000081,ACC-00029,2026-02-09,credit,807733.04,POS_Terminal,Mumbai,no
+TXN-000082,ACC-00043,2026-02-11,credit,9354.23,IRCTC,Bangalore,no
+TXN-000083,ACC-00035,2026-01-10,debit,10143.83,Airtel,Bangalore,no
+TXN-000084,ACC-00030,2026-01-11,debit,24255.25,IRCTC,Tokyo,yes
+TXN-000085,ACC-00022,2026-03-21,transfer,11874.07,BookMyShow,Chennai,no
+TXN-000086,ACC-00043,2026-03-05,withdrawal,8500.18,Flipkart,New York,yes
+TXN-000087,ACC-00003,2026-03-05,payment,2966.06,Amazon,Singapore,yes
+TXN-000088,ACC-00040,2026-01-27,withdrawal,8966.97,,Mumbai,no
+TXN-000089,ACC-00039,2026-01-21,payment,13184.52,Wire_Transfer,Dubai,yes
+TXN-000090,ACC-00013,2026-01-01,payment,21243.81,ATM,Delhi,no
+TXN-000091,ACC-00033,2026-01-13,withdrawal,7978.06,MakeMyTrip,Tokyo,yes
+TXN-000092,ACC-00004,2026-02-22,withdrawal,3741.25,Unknown_Merchant,Singapore,yes
+TXN-000093,ACC-00024,2026-02-13,debit,7152.03,BigBasket,Dubai,yes
+TXN-000094,ACC-00029,2026-03-28,debit,5431.59,Crypto_Exchange,New York,yes
+TXN-000095,ACC-00048,2026-02-14,transfer,4136.57,POS_Terminal,Singapore,yes
+TXN-000096,ACC-00047,2026-01-14,payment,14968.5,Swiggy,Lagos,yes
+TXN-000097,ACC-00020,2026-03-16,transfer,1699.59,MakeMyTrip,Singapore,yes
+TXN-000098,ACC-00006,2026-02-01,transfer,10392.12,IRCTC,New York,yes
+TXN-000099,ACC-00046,2026-01-19,credit,4690.86,PhonePe,Dubai,yes
+TXN-000100,ACC-00036,2026-01-16,transfer,20872.9,BookMyShow,New York,yes
+TXN-000101,ACC-00059,2026-02-24,credit,540260.02,Amazon,Bangalore,no
+TXN-000102,ACC-00017,2026-03-10,withdrawal,3148.21,ATM,Dubai,yes
+TXN-000103,ACC-00027,2026-02-06,credit,759.64,Wire_Transfer,Dubai,yes
+TXN-000104,ACC-00032,2026-03-03,transfer,14547.59,MakeMyTrip,Singapore,yes
+TXN-000105,ACC-00017,2026-03-21,withdrawal,24357.76,Unknown_Merchant,Delhi,no
+TXN-000106,ACC-00024,2026-03-17,payment,487.75,BookMyShow,Bangalore,no
+TXN-000107,ACC-00038,2026-01-02,transfer,11553.05,POS_Terminal,Bangalore,no
+TXN-000108,ACC-00023,2026-01-06,transfer,9061.03,ATM,London,yes
+TXN-000109,ACC-00004,2026-02-10,payment,15991.72,Flipkart,Tokyo,yes
+TXN-000110,ACC-00013,2026-03-25,credit,19129.0,MakeMyTrip,Bangalore,no
+TXN-000111,ACC-00035,2026-02-11,transfer,6822.9,POS_Terminal,London,yes
+TXN-000112,ACC-00007,2026-03-18,transfer,20591.7,Amazon,Bangalore,no
+TXN-000113,ACC-00034,2026-02-10,withdrawal,10329.26,Crypto_Exchange,Bangalore,no
+TXN-000114,ACC-00007,2026-01-07,payment,5566.78,Uber,Tokyo,yes
+TXN-000115,ACC-00040,2026-03-23,payment,17828.05,POS_Terminal,Delhi,no
+TXN-000116,ACC-00027,2026-01-15,debit,20480.18,Crypto_Exchange,Mumbai,no
+TXN-000117,ACC-00031,2026-02-12,transfer,3518.4,,Chennai,no
+TXN-000118,ACC-00034,2026-02-25,credit,17761.88,Amazon,Delhi,no
+TXN-000119,ACC-00015,2026-03-05,credit,17216.78,BookMyShow,Bangalore,no
+TXN-000120,ACC-00014,2026-01-05,withdrawal,17285.91,Wire_Transfer,Delhi,no
+TXN-000121,ACC-00005,2026-02-01,withdrawal,563775.41,Flipkart,Mumbai,no
+TXN-000122,ACC-00043,2026-03-17,debit,11753.6,Crypto_Exchange,Dubai,yes
+TXN-000123,ACC-00003,2026-02-03,debit,18876.03,Wire_Transfer,Delhi,no
+TXN-000124,ACC-00039,2026-03-07,credit,4660.31,BigBasket,Mumbai,no
+TXN-000125,ACC-00006,2026-03-05,transfer,23722.35,BigBasket,London,yes
+TXN-000126,ACC-00053,2026-03-28,payment,6083.47,MakeMyTrip,Delhi,no
+TXN-000127,ACC-00007,2026-03-27,debit,13244.53,POS_Terminal,Lagos,yes
+TXN-000128,ACC-00019,2026-03-06,debit,24340.82,Flipkart,Lagos,yes
+TXN-000129,ACC-00033,2026-03-28,withdrawal,9193.25,MakeMyTrip,Bangalore,no
+TXN-000130,ACC-00029,2026-01-22,credit,20876.82,PhonePe,Singapore,yes
+TXN-000131,ACC-00014,2026-01-17,withdrawal,2865.49,BigBasket,Delhi,no
+TXN-000132,ACC-00030,2026-03-04,credit,12420.61,BigBasket,Dubai,yes
+TXN-000133,ACC-00036,2026-01-24,debit,8236.48,Flipkart,Singapore,yes
+TXN-000134,ACC-00019,2026-03-15,transfer,17191.81,Unknown_Merchant,New York,yes
+TXN-000135,ACC-00015,2026-02-18,transfer,24624.81,PhonePe,Lagos,yes
+TXN-000136,ACC-00005,2026-02-27,transfer,243437.83,ATM,New York,yes
+TXN-000137,ACC-00044,2026-02-04,withdrawal,13090.43,ATM,Delhi,no
+TXN-000138,ACC-00008,2026-02-05,withdrawal,17391.18,Flipkart,Bangalore,no
+TXN-000139,ACC-00005,2026-01-12,transfer,5046.57,Unknown_Merchant,Singapore,yes
+TXN-000140,ACC-00008,2026-02-08,withdrawal,6999.03,POS_Terminal,Chennai,no
+TXN-000141,ACC-00038,2026-03-09,withdrawal,1034145.96,ATM,Chennai,no
+TXN-000142,ACC-00026,2026-03-16,transfer,3726.98,Airtel,Delhi,no
+TXN-000143,ACC-00008,2026-02-09,withdrawal,5809.0,Swiggy,Mumbai,no
+TXN-000144,ACC-00007,2026-01-24,debit,12478.47,Amazon,Bangalore,no
+TXN-000145,ACC-00025,2026-03-20,transfer,3860.78,MakeMyTrip,Chennai,no
+TXN-000146,ACC-00007,2026-01-25,payment,19200.92,,New York,yes
+TXN-000147,ACC-00013,2026-03-10,withdrawal,12281.75,BookMyShow,Tokyo,yes
+TXN-000148,ACC-00022,2026-03-26,payment,490.88,Wire_Transfer,Mumbai,no
+TXN-000149,ACC-00028,2026-02-04,withdrawal,7898.25,PhonePe,New York,yes
+TXN-000150,ACC-00030,2026-01-02,credit,13938.83,Unknown_Merchant,Dubai,yes
+TXN-000151,ACC-00053,2026-02-16,credit,7845.87,PhonePe,New York,yes
+TXN-000152,ACC-00049,2026-03-04,withdrawal,16518.96,ATM,Tokyo,yes
+TXN-000153,ACC-00037,2026-02-16,payment,21366.07,IRCTC,Mumbai,no
+TXN-000154,ACC-00026,2026-02-09,payment,24273.23,MakeMyTrip,London,yes
+TXN-000155,ACC-00050,2026-02-10,debit,752.27,Amazon,Bangalore,no
+TXN-000156,ACC-00024,2026-03-12,payment,721.15,Crypto_Exchange,London,yes
+TXN-000157,ACC-00025,2026-02-04,transfer,24799.04,PhonePe,London,yes
+TXN-000158,ACC-00004,2026-01-22,credit,5903.82,BookMyShow,Chennai,no
+TXN-000159,ACC-00006,2026-01-23,transfer,2906.06,Swiggy,Mumbai,no
+TXN-000160,ACC-00035,2026-01-11,withdrawal,16461.31,PhonePe,Chennai,no
+TXN-000161,ACC-00033,2026-02-14,debit,1543937.71,MakeMyTrip,Mumbai,no
+TXN-000162,ACC-00021,2026-03-13,withdrawal,8094.41,Flipkart,New York,yes
+TXN-000163,ACC-00007,2026-03-23,credit,8432.39,IRCTC,London,yes
+TXN-000164,ACC-00011,2026-02-20,transfer,24237.22,Uber,New York,yes
+TXN-000165,ACC-00041,2026-01-28,payment,5391.3,BookMyShow,Mumbai,no
+TXN-000166,ACC-00020,2026-02-19,credit,15633.08,Flipkart,Chennai,no
+TXN-000167,ACC-00007,2026-02-19,transfer,1728.38,Wire_Transfer,Tokyo,yes
+TXN-000168,ACC-00031,2026-01-14,transfer,19901.51,ATM,Dubai,yes
+TXN-000169,ACC-00033,2026-02-26,withdrawal,16603.24,BigBasket,Lagos,yes
+TXN-000170,ACC-00027,2026-02-13,payment,12908.46,ATM,Tokyo,yes
+TXN-000171,ACC-00012,2026-03-01,payment,21574.61,MakeMyTrip,New York,yes
+TXN-000172,ACC-00014,2026-03-22,withdrawal,6735.0,ATM,Tokyo,yes
+TXN-000173,ACC-00040,2026-02-28,payment,18179.05,Amazon,Tokyo,yes
+TXN-000174,ACC-00013,2026-02-12,credit,6047.33,POS_Terminal,Dubai,yes
+TXN-000175,ACC-00028,2026-02-14,debit,15866.49,,Singapore,yes
+TXN-000176,ACC-00055,2026-02-27,credit,6448.34,MakeMyTrip,Lagos,yes
+TXN-000177,ACC-00026,2026-01-08,credit,4838.3,Uber,Dubai,yes
+TXN-000178,ACC-00030,2026-03-16,withdrawal,10579.38,Crypto_Exchange,Mumbai,no
+TXN-000179,ACC-00013,2026-02-06,credit,777.09,Wire_Transfer,Dubai,yes
+TXN-000180,ACC-00043,2026-01-18,debit,24096.48,Airtel,Mumbai,no
+TXN-000181,ACC-00004,2026-01-28,transfer,1402399.61,Unknown_Merchant,Delhi,no
+TXN-000182,ACC-00027,2026-03-12,debit,9952.53,Unknown_Merchant,Bangalore,no
+TXN-000183,ACC-00016,2026-03-04,payment,23326.74,IRCTC,Chennai,no
+TXN-000184,ACC-00050,2026-02-17,withdrawal,22119.89,Uber,Chennai,no
+TXN-000185,ACC-00008,2026-02-25,transfer,20816.74,POS_Terminal,Singapore,yes
+TXN-000186,ACC-00048,2026-01-24,withdrawal,5489.31,Flipkart,Bangalore,no
+TXN-000187,ACC-00014,2026-02-09,withdrawal,6394.93,MakeMyTrip,Mumbai,no
+TXN-000188,ACC-00032,2026-02-18,debit,7946.42,PhonePe,New York,yes
+TXN-000189,ACC-00044,2026-02-08,credit,9106.8,POS_Terminal,London,yes
+TXN-000190,ACC-00020,2026-03-01,payment,918.5,POS_Terminal,Mumbai,no
+TXN-000191,ACC-00045,2026-03-26,credit,6361.92,PhonePe,Dubai,yes
+TXN-000192,ACC-00041,2026-02-23,debit,13396.02,Uber,New York,yes
+TXN-000193,ACC-00025,2026-02-01,transfer,7557.16,Crypto_Exchange,Lagos,yes
+TXN-000194,ACC-00020,2026-01-07,withdrawal,15802.25,Crypto_Exchange,Singapore,yes
+TXN-000195,ACC-00003,2026-01-09,withdrawal,11803.73,PhonePe,London,yes
+TXN-000196,ACC-00046,2026-01-14,credit,17477.13,IRCTC,Delhi,no
+TXN-000197,ACC-00023,2026-03-14,payment,18457.75,Airtel,Mumbai,no
+TXN-000198,ACC-00049,2026-03-02,credit,15772.4,Wire_Transfer,Bangalore,no
+TXN-000199,ACC-00001,2026-01-13,transfer,7877.36,Flipkart,Delhi,no
+TXN-000200,ACC-00011,2026-03-08,credit,21181.66,ATM,Singapore,yes
