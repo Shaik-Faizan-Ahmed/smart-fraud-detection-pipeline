@@ -6,6 +6,15 @@
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC **Note:** The actual pipeline logic for this layer lives in `src/bronze.py`, not
+# MAGIC in this notebook. This notebook only imports that module and calls it. The
+# MAGIC cell below adds `src/` to the path so the import works correctly when this
+# MAGIC notebook is run on Databricks — make sure that cell runs first, before
+# MAGIC `import bronze` is called.
+
+# COMMAND ----------
+
 import sys
 import os
 

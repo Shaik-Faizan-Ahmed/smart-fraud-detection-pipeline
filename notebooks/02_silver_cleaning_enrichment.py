@@ -6,6 +6,16 @@
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC **Note:** The actual pipeline logic for this layer lives in `src/silver.py`
+# MAGIC and `src/data_quality.py`, not in this notebook. This notebook only imports
+# MAGIC those modules and calls them. The cell below adds `src/` to the path so the
+# MAGIC import works correctly when this notebook is run on Databricks — make sure
+# MAGIC that cell runs first, before `import silver` and `import data_quality` are
+# MAGIC called.
+
+# COMMAND ----------
+
 import sys
 import os
 
