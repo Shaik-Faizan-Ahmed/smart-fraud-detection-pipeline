@@ -1,4 +1,4 @@
-environment: databricks   # databricks | local — controls which path set below is used
+environment: local   # databricks | local — controls which path set below is used
 
 source:
   local:
@@ -51,17 +51,32 @@ gold:
     - confirmed_fraud
 
 output:
-  sample_export_path: "outputs/gold_fraud_transactions_sample.csv"
-  summary_export_path: "outputs/fraud_summary_report.csv"
-  data_quality_report_path: "outputs/data_quality_report.md"
-  overall_summary_path: "outputs/overall_summary.md"
-  fraud_type_breakdown_path: "outputs/fraud_type_breakdown.csv"
-  monthly_fraud_trend_path: "outputs/monthly_fraud_trend.csv"
-  city_fraud_breakdown_path: "outputs/city_fraud_breakdown.csv"
-  top_flagged_accounts_path: "outputs/top_10_flagged_accounts.csv"
-  top_flagged_merchants_path: "outputs/top_10_flagged_merchants.csv"
-  kyc_risk_breakdown_path: "outputs/kyc_risk_breakdown.csv"
-  international_domestic_split_path: "outputs/international_vs_domestic.csv"
-  account_breakdown_full_path: "outputs/account_breakdown_full.csv"
-  risk_level_counts_path: "outputs/risk_level_counts.csv"
+  local:
+    sample_export_path: "outputs/gold_fraud_transactions_sample.csv"
+    summary_export_path: "outputs/fraud_summary_report.csv"
+    data_quality_report_path: "outputs/data_quality_report.md"
+    overall_summary_path: "outputs/overall_summary.md"
+    fraud_type_breakdown_path: "outputs/fraud_type_breakdown.csv"
+    monthly_fraud_trend_path: "outputs/monthly_fraud_trend.csv"
+    city_fraud_breakdown_path: "outputs/city_fraud_breakdown.csv"
+    top_flagged_accounts_path: "outputs/top_10_flagged_accounts.csv"
+    top_flagged_merchants_path: "outputs/top_10_flagged_merchants.csv"
+    kyc_risk_breakdown_path: "outputs/kyc_risk_breakdown.csv"
+    international_domestic_split_path: "outputs/international_vs_domestic.csv"
+    account_breakdown_full_path: "outputs/account_breakdown_full.csv"
+    risk_level_counts_path: "outputs/risk_level_counts.csv"
+  databricks:
+    sample_export_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/gold_fraud_transactions_sample.csv"
+    summary_export_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/fraud_summary_report.csv"
+    data_quality_report_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/data_quality_report.md"
+    overall_summary_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/overall_summary.md"
+    fraud_type_breakdown_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/fraud_type_breakdown.csv"
+    monthly_fraud_trend_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/monthly_fraud_trend.csv"
+    city_fraud_breakdown_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/city_fraud_breakdown.csv"
+    top_flagged_accounts_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/top_10_flagged_accounts.csv"
+    top_flagged_merchants_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/top_10_flagged_merchants.csv"
+    kyc_risk_breakdown_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/kyc_risk_breakdown.csv"
+    international_domestic_split_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/international_vs_domestic.csv"
+    account_breakdown_full_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/account_breakdown_full.csv"
+    risk_level_counts_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/risk_level_counts.csv"
   top_n_flagged: 10

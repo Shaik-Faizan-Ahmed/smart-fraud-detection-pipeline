@@ -44,8 +44,11 @@ def export_gold_outputs(spark, gold_result, config):
     fraud_df = spark.read.format("delta").load(gold_result["fraud_transactions_path"])
     summary_df = spark.read.format("delta").load(gold_result["fraud_summary_path"])
 
-    sample_path = config["output"]["sample_export_path"]
-    summary_path = config["output"]["summary_export_path"]
+    env = config["environment"]
+    sample_path = config["output"][env]["sample_export_path"]
+    summary_path = config["output"][env]["summary_export_path"]
+    os.makedirs(os.path.dirname(sample_path), exist_ok=True)
+    os.makedirs(os.path.dirname(summary_path), exist_ok=True)
 
     fraud_df.toPandas().to_csv(sample_path, index=False)
     summary_df.toPandas().to_csv(summary_path, index=False)
@@ -74,8 +77,9 @@ def main():
     config = bronze.load_config()
     bronze_accounts = bronze.read_source_csv(spark, "accounts", config)
     bronze_transactions = bronze.read_source_csv(spark, "transactions", config)
+    env = config["environment"]
     silver_enriched = spark.read.format("delta").load(
-        f"{config['tables']['silver']['path_prefix']}/{config['tables']['silver']['enriched_transactions']}"
+        f"{config['tables']['silver']['path_prefix'][env]}/{config['tables']['silver']['enriched_transactions']}"
     )
     report = data_quality.generate_data_quality_report(
         spark, bronze_accounts, bronze_transactions, silver_enriched, config

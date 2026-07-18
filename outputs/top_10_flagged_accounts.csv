@@ -1,0 +1,11 @@
+account_id,customer_name,fraud_risk_level,flagged_transaction_count,total_flagged_amount
+ACC-00038,Sushma Thakur,confirmed_fraud,4,1863612.85
+ACC-00056,,confirmed_fraud,1,915931.22
+ACC-00029,Tanuja Nair,confirmed_fraud,6,870985.7799999999
+ACC-00005,Suresh Patel,suspicious,5,827558.5499999999
+ACC-00007,Prakash Rao,suspicious,9,99455.05
+ACC-00035,Tarun Bose,suspicious,4,57284.22
+ACC-00043,Kishore Mohan,suspicious,4,53704.490000000005
+ACC-00047,Pawan Arora,suspicious,4,53389.009999999995
+ACC-00014,Priti Chauhan,suspicious,5,48720.97
+ACC-00016,Asha Verma,suspicious,2,43155.58

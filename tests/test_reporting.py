@@ -128,11 +128,12 @@ def test_overall_summary_report_contains_totals(spark, tmp_path):
 
     output_path = str(tmp_path / "overall_summary.md")
     config = {
+        "environment": "local",
         "gold": {
             "high_value_percentile": 0.90,
             "risky_kyc_statuses": ["pending", "rejected", "expired"],
         },
-        "output": {"overall_summary_path": output_path},
+        "output": {"local": {"overall_summary_path": output_path}},
     }
 
     text = reporting.generate_overall_summary_report(df, threshold=5000.0, config=config)

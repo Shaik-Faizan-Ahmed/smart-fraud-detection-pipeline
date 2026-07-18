@@ -1,3 +1,4 @@
+import os
 import yaml
 from pyspark.sql import DataFrame
 from pyspark.sql import functions as F
@@ -6,6 +7,12 @@ from pyspark.sql import functions as F
 def load_config(config_path: str = "config/pipeline_config.yaml") -> dict:
     with open(config_path, "r") as f:
         return yaml.safe_load(f)
+
+
+def get_output_paths(config: dict) -> dict:
+    """Resolves the local/databricks output path block based on config['environment']."""
+    env = config["environment"]
+    return config["output"][env]
 
 
 def build_fraud_type_breakdown(fraud_df: DataFrame) -> DataFrame:
@@ -152,7 +159,8 @@ def generate_overall_summary_report(fraud_df: DataFrame, threshold: float, confi
 
     report_text = "\n".join(lines)
 
-    output_path = config["output"]["overall_summary_path"]
+    output_path = get_output_paths(config)["overall_summary_path"]
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w") as f:
         f.write(report_text)
 
@@ -168,6 +176,7 @@ def export_all_reports(fraud_df: DataFrame, account_breakdown_df: DataFrame, thr
     prints existed before.
     """
     top_n = config["output"].get("top_n_flagged", 10)
+    output_paths = get_output_paths(config)
 
     reports = {
         "fraud_type_breakdown": build_fraud_type_breakdown(fraud_df),
@@ -195,13 +204,14 @@ def export_all_reports(fraud_df: DataFrame, account_breakdown_df: DataFrame, thr
 
     written_paths = {}
     for name, df in reports.items():
-        output_path = config["output"][path_keys[name]]
+        output_path = output_paths[path_keys[name]]
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
         df.toPandas().to_csv(output_path, index=False)
         written_paths[name] = output_path
         print(f"[reporting] {name} -> {output_path}")
 
     summary_text = generate_overall_summary_report(fraud_df, threshold, config)
-    written_paths["overall_summary"] = config["output"]["overall_summary_path"]
+    written_paths["overall_summary"] = output_paths["overall_summary_path"]
     print(f"[reporting] overall_summary -> {written_paths['overall_summary']}")
 
     return written_paths

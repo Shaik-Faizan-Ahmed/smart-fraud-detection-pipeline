@@ -1,0 +1,11 @@
+city,total_transactions,confirmed_fraud_count,suspicious_count,fraud_rate_pct
+New York,29,5,16,72.41
+Lagos,15,4,5,60.0
+Chennai,19,5,4,47.37
+Delhi,20,3,6,45.0
+Tokyo,16,1,6,43.75
+London,19,2,6,42.11
+Mumbai,20,1,7,40.0
+Bangalore,22,1,6,31.82
+Singapore,18,2,3,27.78
+Dubai,22,2,3,22.73

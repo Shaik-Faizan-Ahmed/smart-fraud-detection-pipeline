@@ -1,0 +1,4 @@
+fraud_risk_level,transaction_count,pct_of_total
+normal,112,56.0
+suspicious,62,31.0
+confirmed_fraud,26,13.0

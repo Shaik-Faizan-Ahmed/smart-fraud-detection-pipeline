@@ -1,0 +1,6 @@
+fraud_type,transaction_count,total_amount,distinct_accounts
+money_laundering,10,910958.21,3
+card_cloning,6,1885377.09,2
+phishing,4,27582.82,1
+identity_theft,3,40276.8,2
+account_takeover,3,943437.19,2

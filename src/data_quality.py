@@ -1,3 +1,4 @@
+import os
 import yaml
 from pyspark.sql import SparkSession, DataFrame
 from pyspark.sql import functions as F
@@ -53,7 +54,9 @@ def generate_data_quality_report(
 
     report_text = "\n".join(lines)
 
-    output_path = config["output"]["data_quality_report_path"]
+    env = config["environment"]
+    output_path = config["output"][env]["data_quality_report_path"]
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w") as f:
         f.write(report_text)
 

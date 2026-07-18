@@ -1,0 +1,34 @@
+account_id,customer_name,fraud_risk_level,flagged_transaction_count,total_flagged_amount
+ACC-00038,Sushma Thakur,confirmed_fraud,4,1863612.85
+ACC-00056,,confirmed_fraud,1,915931.22
+ACC-00029,Tanuja Nair,confirmed_fraud,6,870985.7799999999
+ACC-00005,Suresh Patel,suspicious,5,827558.5499999999
+ACC-00007,Prakash Rao,suspicious,9,99455.05
+ACC-00035,Tarun Bose,suspicious,4,57284.22
+ACC-00043,Kishore Mohan,suspicious,4,53704.490000000005
+ACC-00047,Pawan Arora,suspicious,4,53389.009999999995
+ACC-00014,Priti Chauhan,suspicious,5,48720.97
+ACC-00016,Asha Verma,suspicious,2,43155.58
+ACC-00034,Indira Rajan,suspicious,3,42579.82000000001
+ACC-00041,Rohit Saxena,suspicious,4,42471.19
+ACC-00019,Gopal Das,suspicious,3,41980.09
+ACC-00044,Vandana Rastogi,confirmed_fraud,3,33524.09
+ACC-00023,Dinesh Wadhwa,suspicious,3,33447.97
+ACC-00037,Naveen Chadha,suspicious,2,33345.65
+ACC-00001,Rajesh Kapoor,suspicious,2,30055.89
+ACC-00036,Deepa Pillai,suspicious,2,29109.38
+ACC-00031,Akash Dhawan,confirmed_fraud,4,27582.82
+ACC-00017,Ravi Pandey,confirmed_fraud,2,27505.969999999998
+ACC-00025,Hemant Jain,suspicious,1,24799.04
+ACC-00015,Vijay Malhotra,suspicious,1,24624.81
+ACC-00010,Geeta Sharma,suspicious,1,24505.59
+ACC-00026,Kunal Mehta,suspicious,1,24273.23
+ACC-00030,Bhaskar Menon,suspicious,1,24255.25
+ACC-00011,Manoj Tiwari,suspicious,1,24237.22
+ACC-00050,Chitra Venkatesh,suspicious,2,22872.16
+ACC-00021,Sanjay Bhat,confirmed_fraud,2,21764.239999999998
+ACC-00012,Rekha Bansal,confirmed_fraud,1,21574.61
+ACC-00018,Nandini Shah,suspicious,1,19925.49
+ACC-00009,Venkat Naidu,confirmed_fraud,2,18702.190000000002
+ACC-00055,,confirmed_fraud,1,6448.34
+ACC-00002,Sunita Deshmukh,suspicious,1,1817.94

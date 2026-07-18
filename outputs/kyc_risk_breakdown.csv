@@ -1,0 +1,6 @@
+kyc_status,total_transactions,confirmed_fraud_count,suspicious_count,fraud_rate_pct
+rejected,8,4,4,100.0
+pending,26,2,24,100.0
+expired,28,0,28,100.0
+,8,2,0,25.0
+verified,130,18,6,18.46
