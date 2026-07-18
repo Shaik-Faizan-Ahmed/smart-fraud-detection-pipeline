@@ -1,4 +1,4 @@
-environment: local   # databricks | local — controls which path set below is used
+environment: databricks   # databricks | local — controls which path set below is used
 
 source:
   local:
