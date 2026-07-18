@@ -20,6 +20,15 @@ os.chdir(repo_root)
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC ### Run Gold Processing
+# MAGIC Joins Silver transactions against the fraud watchlist, computes the
+# MAGIC high-value threshold, assigns `fraud_risk_level` to every transaction,
+# MAGIC and writes the classified transactions + summary table as Delta
+# MAGIC tables. Output below shows the threshold used and the paths written.
+
+# COMMAND ----------
+
 import gold
 import reporting
 
@@ -72,7 +81,22 @@ breakdown_df.display()
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC #### Fraud Type Breakdown
+# MAGIC Transaction count, total dollar amount, and number of distinct accounts
+# MAGIC for each known fraud type on the watchlist. Shows which fraud type
+# MAGIC carries the largest dollar exposure.
+
+# COMMAND ----------
+
 reporting.build_fraud_type_breakdown(fraud_df).display()
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC #### Monthly Fraud Trend
+# MAGIC Total, confirmed-fraud, and suspicious transaction counts grouped by
+# MAGIC month, so any spike or drift in fraud activity over time is visible.
 
 # COMMAND ----------
 
@@ -80,7 +104,22 @@ reporting.build_monthly_fraud_trend(fraud_df).display()
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC #### Fraud Rate by City
+# MAGIC Same total/confirmed/suspicious breakdown as above, grouped by
+# MAGIC transaction city, with a computed `fraud_rate_pct`, sorted
+# MAGIC highest-risk city first.
+
+# COMMAND ----------
+
 reporting.build_city_fraud_breakdown(fraud_df).display()
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC #### Fraud Rate by KYC Status
+# MAGIC Tests whether risky KYC status (pending/rejected/expired) actually
+# MAGIC correlates with higher fraud rates, broken out by `kyc_status`.
 
 # COMMAND ----------
 
@@ -88,11 +127,32 @@ reporting.build_kyc_risk_breakdown(fraud_df).display()
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC #### International vs. Domestic Fraud Rate
+# MAGIC Direct comparison of fraud rate between international and domestic
+# MAGIC transactions.
+
+# COMMAND ----------
+
 reporting.build_international_domestic_split(fraud_df).display()
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC #### Top Flagged Accounts
+# MAGIC Highest-risk accounts ranked by total flagged transaction amount
+# MAGIC (top N, configurable via `output.top_n_flagged`).
+
+# COMMAND ----------
+
 reporting.build_top_flagged_accounts(breakdown_df).display()
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC #### Top Flagged Merchants
+# MAGIC Merchants most frequently tied to flagged (non-normal) transactions,
+# MAGIC ranked by flagged transaction count.
 
 # COMMAND ----------
 
@@ -102,6 +162,9 @@ reporting.build_top_flagged_merchants(fraud_df).display()
 
 # MAGIC %md
 # MAGIC ### Export all reports to outputs/
+# MAGIC Writes every table above to its own CSV in `outputs/`, plus the
+# MAGIC markdown overall summary report — the persisted version of
+# MAGIC everything just displayed inline in this notebook.
 
 # COMMAND ----------
 

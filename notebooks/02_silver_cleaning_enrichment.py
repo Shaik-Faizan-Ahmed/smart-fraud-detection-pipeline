@@ -20,6 +20,7 @@ os.chdir(repo_root)
 # COMMAND ----------
 
 import silver
+import data_quality
 
 result = silver.run_silver_processing(spark)
 result
@@ -42,3 +43,22 @@ print("null credit_limit:", enriched.filter(enriched.credit_limit.isNull()).coun
 print("orphan transactions:", enriched.filter(enriched.is_orphan_transaction == True).count())
 
 enriched.filter(enriched.is_orphan_transaction == True).display()
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### Data quality report
+# MAGIC Summarizes what Bronze/Silver found and fixed (nulls, duplicates removed,
+# MAGIC orphan transactions). Written to `outputs/data_quality_report.md`.
+# MAGIC Previously this only ran via `run_pipeline.py` locally — now it also runs here.
+
+# COMMAND ----------
+
+config = silver.load_config()
+bronze_accounts = silver.read_bronze_table(spark, "accounts", config)
+bronze_transactions = silver.read_bronze_table(spark, "transactions", config)
+
+report = data_quality.generate_data_quality_report(
+    spark, bronze_accounts, bronze_transactions, enriched, config
+)
+print(report)
