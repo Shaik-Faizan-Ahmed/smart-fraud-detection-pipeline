@@ -52,7 +52,7 @@ gold:
 
 output:
   local:
-    sample_export_path: "outputs/gold_fraud_transactions_sample.csv"
+    full_export_path: "outputs/gold_fraud_transactions_full.csv"
     summary_export_path: "outputs/fraud_summary_report.csv"
     data_quality_report_path: "outputs/data_quality_report.md"
     overall_summary_path: "outputs/overall_summary.md"
@@ -66,7 +66,7 @@ output:
     account_breakdown_full_path: "outputs/account_breakdown_full.csv"
     risk_level_counts_path: "outputs/risk_level_counts.csv"
   databricks:
-    sample_export_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/gold_fraud_transactions_sample.csv"
+    full_export_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/gold_fraud_transactions_full.csv"
     summary_export_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/fraud_summary_report.csv"
     data_quality_report_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/data_quality_report.md"
     overall_summary_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/outputs/overall_summary.md"

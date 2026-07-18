@@ -143,7 +143,7 @@ Running the pipeline (locally or on Databricks) produces the following files in 
 **Core exports**
 | File | Description |
 |---|---|
-| `gold_fraud_transactions_sample.csv` | Full enriched + flagged transaction-level data |
+| `gold_fraud_transactions_full.csv` | Full enriched + flagged transaction-level data |
 | `fraud_summary_report.csv` | Fraud rate by branch and account type |
 | `data_quality_report.md` | Nulls found, duplicates removed, orphan transactions, row counts |
 

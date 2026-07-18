@@ -45,15 +45,15 @@ def export_gold_outputs(spark, gold_result, config):
     summary_df = spark.read.format("delta").load(gold_result["fraud_summary_path"])
 
     env = config["environment"]
-    sample_path = config["output"][env]["sample_export_path"]
+    full_path = config["output"][env]["full_export_path"]
     summary_path = config["output"][env]["summary_export_path"]
-    os.makedirs(os.path.dirname(sample_path), exist_ok=True)
+    os.makedirs(os.path.dirname(full_path), exist_ok=True)
     os.makedirs(os.path.dirname(summary_path), exist_ok=True)
 
-    fraud_df.toPandas().to_csv(sample_path, index=False)
+    fraud_df.toPandas().to_csv(full_path, index=False)
     summary_df.toPandas().to_csv(summary_path, index=False)
 
-    print(f"[export] gold sample -> {sample_path}")
+    print(f"[export] gold fraud transactions (full) -> {full_path}")
     print(f"[export] fraud summary -> {summary_path}")
 
 
