@@ -1,25 +1,36 @@
-environment: databricks   # databricks | local
+environment: databricks   # databricks | local — controls which path set below is used
 
 source:
-  accounts_path: "data/raw/accounts.csv"
-  transactions_path: "data/raw/transactions.csv"
-  fraud_watchlist_path: "data/raw/known_fraud_accounts.csv"
+  local:
+    accounts_path: "data/raw/accounts.csv"
+    transactions_path: "data/raw/transactions.csv"
+    fraud_watchlist_path: "data/raw/known_fraud_accounts.csv"
+  databricks:
+    accounts_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/accounts.csv"
+    transactions_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/transactions.csv"
+    fraud_watchlist_path: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/known_fraud_accounts.csv"
 
 tables:
   bronze:
     accounts: "bronze_accounts"
     transactions: "bronze_transactions"
     fraud_watchlist: "bronze_fraud_watchlist"
-    path_prefix: "delta/bronze"
+    path_prefix:
+      local: "delta/bronze"
+      databricks: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/delta/bronze"
 
   silver:
     enriched_transactions: "silver_enriched_transactions"
-    path_prefix: "delta/silver"
+    path_prefix:
+      local: "delta/silver"
+      databricks: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/delta/silver"
 
   gold:
     fraud_transactions: "gold_fraud_transactions"
     fraud_summary: "gold_fraud_summary"
-    path_prefix: "delta/gold"
+    path_prefix:
+      local: "delta/gold"
+      databricks: "/Volumes/workspace/default/smart-fraud-detection-pipeline-data/delta/gold"
 
 silver:
   null_handling:

@@ -16,8 +16,9 @@ def read_bronze_table(spark: SparkSession, dataset_name: str, config: dict) -> D
         "fraud_watchlist": "fraud_watchlist",
     }[dataset_name]
 
+    env = config["environment"]
     table_name = config["tables"]["bronze"][table_key]
-    path_prefix = config["tables"]["bronze"]["path_prefix"]
+    path_prefix = config["tables"]["bronze"]["path_prefix"][env]
     path = f"{path_prefix}/{table_name}"
 
     return spark.read.format("delta").load(path)
@@ -75,8 +76,9 @@ def enrich_transactions(txn_df: DataFrame, acc_df: DataFrame, config: dict) -> D
 
 
 def write_silver_table(df: DataFrame, config: dict) -> str:
+    env = config["environment"]
     table_name = config["tables"]["silver"]["enriched_transactions"]
-    path_prefix = config["tables"]["silver"]["path_prefix"]
+    path_prefix = config["tables"]["silver"]["path_prefix"][env]
     output_path = f"{path_prefix}/{table_name}"
 
     df.write.format("delta").mode("overwrite").save(output_path)

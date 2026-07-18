@@ -9,15 +9,17 @@ def load_config(config_path: str = "config/pipeline_config.yaml") -> dict:
 
 
 def read_silver_table(spark: SparkSession, config: dict) -> DataFrame:
+    env = config["environment"]
     table_name = config["tables"]["silver"]["enriched_transactions"]
-    path_prefix = config["tables"]["silver"]["path_prefix"]
+    path_prefix = config["tables"]["silver"]["path_prefix"][env]
     path = f"{path_prefix}/{table_name}"
     return spark.read.format("delta").load(path)
 
 
 def read_bronze_fraud_watchlist(spark: SparkSession, config: dict) -> DataFrame:
+    env = config["environment"]
     table_name = config["tables"]["bronze"]["fraud_watchlist"]
-    path_prefix = config["tables"]["bronze"]["path_prefix"]
+    path_prefix = config["tables"]["bronze"]["path_prefix"][env]
     path = f"{path_prefix}/{table_name}"
     return spark.read.format("delta").load(path)
 
@@ -81,7 +83,8 @@ def build_account_level_breakdown(df: DataFrame) -> DataFrame:
 
 
 def write_gold_tables(fraud_df: DataFrame, summary_df: DataFrame, config: dict) -> dict:
-    path_prefix = config["tables"]["gold"]["path_prefix"]
+    env = config["environment"]
+    path_prefix = config["tables"]["gold"]["path_prefix"][env]
 
     fraud_path = f"{path_prefix}/{config['tables']['gold']['fraud_transactions']}"
     summary_path = f"{path_prefix}/{config['tables']['gold']['fraud_summary']}"

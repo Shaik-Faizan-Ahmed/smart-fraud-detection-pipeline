@@ -19,7 +19,8 @@ def read_source_csv(spark: SparkSession, dataset_name: str, config: dict) -> Dat
         "fraud_watchlist": "fraud_watchlist_path",
     }[dataset_name]
 
-    source_path = config["source"][path_key]
+    env = config["environment"]
+    source_path = config["source"][env][path_key]
     schema = SCHEMA_REGISTRY[dataset_name]
 
     df = (
@@ -42,8 +43,9 @@ def write_bronze_table(df: DataFrame, dataset_name: str, config: dict) -> str:
         "fraud_watchlist": "fraud_watchlist",
     }[dataset_name]
 
+    env = config["environment"]
     table_name = config["tables"]["bronze"][table_key]
-    path_prefix = config["tables"]["bronze"]["path_prefix"]
+    path_prefix = config["tables"]["bronze"]["path_prefix"][env]
     output_path = f"{path_prefix}/{table_name}"
 
     df.write.format("delta").mode("overwrite").save(output_path)
