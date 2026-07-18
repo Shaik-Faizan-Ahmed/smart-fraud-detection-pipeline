@@ -21,6 +21,7 @@ os.chdir(repo_root)
 # COMMAND ----------
 
 import gold
+import reporting
 
 result = gold.run_gold_processing(spark)
 result
@@ -57,3 +58,51 @@ summary_df.display()
 
 breakdown_df = gold.build_account_level_breakdown(fraud_df)
 breakdown_df.display()
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### Additional Gold layer insights
+# MAGIC Fraud type breakdown, monthly trend, city/KYC/international views, and
+# MAGIC top flagged accounts + merchants — written to `outputs/` alongside an
+# MAGIC overall summary report. The full account breakdown and risk level
+# MAGIC counts below were already shown via .display() previously but are now
+# MAGIC also persisted as their own files (account_breakdown_full.csv,
+# MAGIC risk_level_counts.csv) instead of only appearing in this notebook.
+
+# COMMAND ----------
+
+reporting.build_fraud_type_breakdown(fraud_df).display()
+
+# COMMAND ----------
+
+reporting.build_monthly_fraud_trend(fraud_df).display()
+
+# COMMAND ----------
+
+reporting.build_city_fraud_breakdown(fraud_df).display()
+
+# COMMAND ----------
+
+reporting.build_kyc_risk_breakdown(fraud_df).display()
+
+# COMMAND ----------
+
+reporting.build_international_domestic_split(fraud_df).display()
+
+# COMMAND ----------
+
+reporting.build_top_flagged_accounts(breakdown_df).display()
+
+# COMMAND ----------
+
+reporting.build_top_flagged_merchants(fraud_df).display()
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### Export all reports to outputs/
+
+# COMMAND ----------
+
+reporting.export_all_reports(fraud_df, breakdown_df, result["threshold"], gold.load_config())

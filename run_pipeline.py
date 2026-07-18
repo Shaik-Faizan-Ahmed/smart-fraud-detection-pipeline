@@ -20,6 +20,7 @@ import bronze
 import silver
 import gold
 import data_quality
+import reporting
 
 
 def get_local_spark() -> SparkSession:
@@ -83,6 +84,11 @@ def main():
 
     print("\n=== EXPORTING OUTPUTS ===")
     export_gold_outputs(spark, gold_result, config)
+
+    print("\n=== GOLD LAYER INSIGHTS ===")
+    fraud_df = spark.read.format("delta").load(gold_result["fraud_transactions_path"])
+    account_breakdown_df = gold.build_account_level_breakdown(fraud_df)
+    reporting.export_all_reports(fraud_df, account_breakdown_df, gold_result["threshold"], config)
 
     print("\nPipeline finished successfully.")
 
