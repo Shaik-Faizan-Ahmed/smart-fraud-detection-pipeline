@@ -1,0 +1,201 @@
+account_id,txn_id,txn_date,txn_type,amount,merchant,city,is_international,ingestion_timestamp,source_file,customer_name,account_type,branch,kyc_status,credit_limit,is_orphan_transaction,fraud_type,is_watchlisted,is_high_value_international,is_pending_kyc_risk,fraud_risk_level
+ACC-00056,TXN-000001,2026-01-09,debit,915931.22,Unknown_Merchant,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,,,,,,True,account_takeover,True,True,,confirmed_fraud
+ACC-00025,TXN-000002,2026-01-11,transfer,23892.36,BookMyShow,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Hemant Jain,NRI,Hyderabad_Hitech,verified,500000.0,False,,False,False,False,normal
+ACC-00029,TXN-000003,2026-02-03,credit,15277.03,Swiggy,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Tanuja Nair,salary,Pune_FC,verified,100000.0,False,money_laundering,True,False,False,confirmed_fraud
+ACC-00007,TXN-000004,2026-03-05,withdrawal,5498.74,ATM,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Prakash Rao,NRI,Pune_FC,expired,500000.0,False,,False,False,True,suspicious
+ACC-00029,TXN-000005,2026-02-23,debit,919.78,Flipkart,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Tanuja Nair,salary,Pune_FC,verified,100000.0,False,money_laundering,True,False,False,confirmed_fraud
+ACC-00047,TXN-000006,2026-02-09,debit,22417.98,Swiggy,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Pawan Arora,savings,Hyderabad_Hitech,pending,100000.0,False,,False,False,True,suspicious
+ACC-00003,TXN-000007,2026-02-22,transfer,3832.61,BigBasket,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Anil Reddy,current,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00037,TXN-000008,2026-03-01,withdrawal,11979.58,PhonePe,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Naveen Chadha,salary,Kolkata_Park,expired,50000.0,False,,False,False,True,suspicious
+ACC-00035,TXN-000009,2026-01-08,withdrawal,23856.18,Unknown_Merchant,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Tarun Bose,savings,Delhi_CP,expired,500000.0,False,,False,True,True,suspicious
+ACC-00008,TXN-000010,2026-03-19,transfer,8369.32,BookMyShow,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Lata Mishra,salary,Mumbai_Main,verified,100000.0,False,,False,False,False,normal
+ACC-00004,TXN-000011,2026-03-21,debit,9165.62,Unknown_Merchant,London,True,2026-07-18 11:43:36.173501,transactions.csv,Meena Iyer,NRI,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00006,TXN-000012,2026-02-27,transfer,16212.42,Swiggy,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Kavita Joshi,NRI,Kolkata_Park,verified,200000.0,False,,False,False,False,normal
+ACC-00003,TXN-000013,2026-03-13,credit,7506.82,PhonePe,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Anil Reddy,current,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00041,TXN-000014,2026-02-23,withdrawal,2167.32,ATM,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Rohit Saxena,savings,Bangalore_MG,rejected,500000.0,False,,False,False,True,suspicious
+ACC-00048,TXN-000015,2026-01-07,debit,4867.66,POS_Terminal,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Sweta Bajaj,savings,Hyderabad_Hitech,verified,200000.0,False,,False,False,False,normal
+ACC-00016,TXN-000016,2026-02-16,debit,19828.84,ATM,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Asha Verma,NRI,Chennai_T_Nagar,expired,200000.0,False,,False,False,True,suspicious
+ACC-00032,TXN-000017,2026-02-18,debit,974.21,Amazon,London,True,2026-07-18 11:43:36.173501,transactions.csv,Neelam Kaur,salary,Pune_FC,verified,100000.0,False,,False,False,False,normal
+ACC-00047,TXN-000018,2026-02-02,debit,5331.37,ATM,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Pawan Arora,savings,Hyderabad_Hitech,pending,100000.0,False,,False,False,True,suspicious
+ACC-00030,TXN-000019,2026-03-22,credit,18539.23,Uber,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Bhaskar Menon,savings,Mumbai_Main,verified,50000.0,False,,False,False,False,normal
+ACC-00003,TXN-000020,2026-01-24,withdrawal,16363.1,Airtel,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Anil Reddy,current,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00003,TXN-000021,2026-03-08,credit,521547.81,ATM,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Anil Reddy,current,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00020,TXN-000022,2026-01-27,withdrawal,15300.09,Unknown_Merchant,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Usha Agarwal,NRI,Hyderabad_Hitech,verified,500000.0,False,,False,False,False,normal
+ACC-00005,TXN-000023,2026-01-27,debit,12453.73,Wire_Transfer,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Suresh Patel,current,Hyderabad_Hitech,expired,50000.0,False,,False,False,True,suspicious
+ACC-00015,TXN-000024,2026-01-03,withdrawal,8466.71,Unknown_Merchant,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Vijay Malhotra,NRI,Hyderabad_Hitech,verified,100000.0,False,,False,False,False,normal
+ACC-00021,TXN-000025,2026-03-04,payment,13669.83,BigBasket,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,Sanjay Bhat,NRI,Chennai_T_Nagar,pending,1000000.0,False,card_cloning,True,False,True,confirmed_fraud
+ACC-00051,TXN-000026,2026-01-19,transfer,1627.39,BookMyShow,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,,,,,,True,,False,False,,normal
+ACC-00049,TXN-000027,2026-01-14,transfer,13857.52,Airtel,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,Nilesh Parekh,current,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00038,TXN-000028,2026-01-02,debit,19786.75,ATM,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Sushma Thakur,current,Bangalore_MG,verified,1000000.0,False,card_cloning,True,False,False,confirmed_fraud
+ACC-00025,TXN-000029,2026-01-25,debit,21996.69,Flipkart,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Hemant Jain,NRI,Hyderabad_Hitech,verified,500000.0,False,,False,False,False,normal
+ACC-00001,TXN-000030,2026-01-06,payment,22178.53,Unknown_Merchant,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Rajesh Kapoor,savings,Mumbai_Main,pending,1000000.0,False,,False,False,True,suspicious
+ACC-00045,TXN-000031,2026-01-05,credit,16013.65,IRCTC,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Jagdish Patil,savings,Chennai_T_Nagar,verified,50000.0,False,,False,False,False,normal
+ACC-00027,TXN-000032,2026-01-08,payment,17307.26,MakeMyTrip,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Shreya Gupta,savings,Chennai_T_Nagar,verified,200000.0,False,,False,False,False,normal
+ACC-00046,TXN-000033,2026-03-16,debit,15698.43,Wire_Transfer,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Mala Srinivasan,NRI,Bangalore_MG,verified,50000.0,False,,False,False,False,normal
+ACC-00023,TXN-000034,2026-01-14,payment,5929.19,Flipkart,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Dinesh Wadhwa,salary,Chennai_T_Nagar,pending,50000.0,False,,False,False,True,suspicious
+ACC-00007,TXN-000035,2026-02-20,payment,12713.14,Airtel,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,Prakash Rao,NRI,Pune_FC,expired,500000.0,False,,False,False,True,suspicious
+ACC-00018,TXN-000036,2026-01-02,debit,19925.49,ATM,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Nandini Shah,savings,Chennai_T_Nagar,pending,100000.0,False,,False,False,True,suspicious
+ACC-00032,TXN-000037,2026-01-06,debit,1397.99,BigBasket,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Neelam Kaur,salary,Pune_FC,verified,100000.0,False,,False,False,False,normal
+ACC-00014,TXN-000038,2026-02-14,transfer,15439.64,Crypto_Exchange,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Priti Chauhan,current,Chennai_T_Nagar,pending,100000.0,False,,False,False,True,suspicious
+ACC-00003,TXN-000039,2026-03-04,debit,23125.29,Swiggy,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Anil Reddy,current,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00002,TXN-000040,2026-03-16,debit,1817.94,Uber,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Sunita Deshmukh,NRI,Delhi_CP,pending,1000000.0,False,,False,False,True,suspicious
+ACC-00038,TXN-000041,2026-02-19,withdrawal,798127.09,ATM,London,True,2026-07-18 11:43:36.173501,transactions.csv,Sushma Thakur,current,Bangalore_MG,verified,1000000.0,False,card_cloning,True,True,False,confirmed_fraud
+ACC-00015,TXN-000042,2026-01-25,transfer,5733.16,Uber,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Vijay Malhotra,NRI,Hyderabad_Hitech,verified,100000.0,False,,False,False,False,normal
+ACC-00013,TXN-000043,2026-01-13,debit,11801.21,Airtel,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Ashok Sinha,savings,Kolkata_Park,verified,50000.0,False,,False,False,False,normal
+ACC-00028,TXN-000044,2026-01-05,payment,11402.02,PhonePe,London,True,2026-07-18 11:43:36.173501,transactions.csv,Rituraj Singh,NRI,Delhi_CP,verified,1000000.0,False,,False,False,False,normal
+ACC-00009,TXN-000045,2026-03-15,credit,15818.93,BookMyShow,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,Venkat Naidu,savings,Chennai_T_Nagar,verified,500000.0,False,identity_theft,True,False,False,confirmed_fraud
+ACC-00022,TXN-000046,2026-01-05,payment,1538.31,Swiggy,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Poonam Yadav,NRI,Bangalore_MG,verified,1000000.0,False,,False,False,False,normal
+ACC-00030,TXN-000047,2026-02-15,credit,19020.47,Uber,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Bhaskar Menon,savings,Mumbai_Main,verified,50000.0,False,,False,False,False,normal
+ACC-00039,TXN-000048,2026-03-06,payment,22644.17,MakeMyTrip,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Arun Hegde,current,Chennai_T_Nagar,verified,100000.0,False,,False,False,False,normal
+ACC-00015,TXN-000049,2026-02-03,payment,12255.87,Uber,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Vijay Malhotra,NRI,Hyderabad_Hitech,verified,100000.0,False,,False,False,False,normal
+ACC-00031,TXN-000050,2026-02-27,transfer,411.87,PhonePe,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,Akash Dhawan,current,Kolkata_Park,verified,100000.0,False,phishing,True,False,False,confirmed_fraud
+ACC-00054,TXN-000051,2026-02-11,payment,5599.04,Crypto_Exchange,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,,,,,,True,,False,False,,normal
+ACC-00010,TXN-000052,2026-01-19,withdrawal,24505.59,Amazon,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Geeta Sharma,NRI,Bangalore_MG,verified,200000.0,False,,False,True,False,suspicious
+ACC-00047,TXN-000053,2026-03-25,debit,10671.16,PhonePe,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Pawan Arora,savings,Hyderabad_Hitech,pending,100000.0,False,,False,False,True,suspicious
+ACC-00045,TXN-000054,2026-01-27,withdrawal,12407.36,Flipkart,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Jagdish Patil,savings,Chennai_T_Nagar,verified,50000.0,False,,False,False,False,normal
+ACC-00049,TXN-000055,2026-03-01,withdrawal,23750.85,Swiggy,London,True,2026-07-18 11:43:36.173501,transactions.csv,Nilesh Parekh,current,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00019,TXN-000056,2026-03-08,debit,447.46,ATM,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Gopal Das,savings,Chennai_T_Nagar,expired,200000.0,False,,False,False,True,suspicious
+ACC-00011,TXN-000057,2026-02-23,payment,18694.8,Amazon,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Manoj Tiwari,salary,Mumbai_Main,verified,1000000.0,False,,False,False,False,normal
+ACC-00030,TXN-000058,2026-01-25,withdrawal,4664.4,Unknown_Merchant,London,True,2026-07-18 11:43:36.173501,transactions.csv,Bhaskar Menon,savings,Mumbai_Main,verified,50000.0,False,,False,False,False,normal
+ACC-00041,TXN-000059,2026-03-15,debit,21516.55,Unknown_Merchant,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Rohit Saxena,savings,Bangalore_MG,rejected,500000.0,False,,False,False,True,suspicious
+ACC-00045,TXN-000060,2026-03-11,debit,7449.92,Wire_Transfer,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Jagdish Patil,savings,Chennai_T_Nagar,verified,50000.0,False,,False,False,False,normal
+ACC-00045,TXN-000061,2026-03-20,payment,1691718.13,Wire_Transfer,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Jagdish Patil,savings,Chennai_T_Nagar,verified,50000.0,False,,False,False,False,normal
+ACC-00040,TXN-000062,2026-03-11,debit,12892.68,Crypto_Exchange,London,True,2026-07-18 11:43:36.173501,transactions.csv,Padma Iyengar,NRI,Chennai_T_Nagar,verified,200000.0,False,,False,False,False,normal
+ACC-00004,TXN-000063,2026-02-04,transfer,11660.55,Amazon,London,True,2026-07-18 11:43:36.173501,transactions.csv,Meena Iyer,NRI,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00024,TXN-000064,2026-03-06,payment,17636.6,IRCTC,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,Savita Kulkarni,NRI,Pune_FC,verified,200000.0,False,,False,False,False,normal
+ACC-00009,TXN-000065,2026-01-11,payment,2883.26,Airtel,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Venkat Naidu,savings,Chennai_T_Nagar,verified,500000.0,False,identity_theft,True,False,False,confirmed_fraud
+ACC-00045,TXN-000066,2026-03-07,credit,8045.57,Crypto_Exchange,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Jagdish Patil,savings,Chennai_T_Nagar,verified,50000.0,False,,False,False,False,normal
+ACC-00033,TXN-000067,2026-02-22,transfer,1408.78,BigBasket,London,True,2026-07-18 11:43:36.173501,transactions.csv,Ramesh Shetty,current,Delhi_CP,verified,100000.0,False,,False,False,False,normal
+ACC-00029,TXN-000068,2026-03-16,payment,20747.52,Airtel,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Tanuja Nair,salary,Pune_FC,verified,100000.0,False,money_laundering,True,False,False,confirmed_fraud
+ACC-00044,TXN-000069,2026-03-27,transfer,11326.86,BigBasket,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Vandana Rastogi,current,Pune_FC,rejected,200000.0,False,money_laundering,True,False,True,confirmed_fraud
+ACC-00013,TXN-000070,2026-01-15,debit,9797.53,Swiggy,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Ashok Sinha,savings,Kolkata_Park,verified,50000.0,False,,False,False,False,normal
+ACC-00005,TXN-000071,2026-01-04,transfer,2845.01,Swiggy,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Suresh Patel,current,Hyderabad_Hitech,expired,50000.0,False,,False,False,True,suspicious
+ACC-00010,TXN-000072,2026-01-28,payment,23805.01,Amazon,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Geeta Sharma,NRI,Bangalore_MG,verified,200000.0,False,,False,False,False,normal
+ACC-00027,TXN-000073,2026-03-22,credit,11873.93,PhonePe,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Shreya Gupta,savings,Chennai_T_Nagar,verified,200000.0,False,,False,False,False,normal
+ACC-00048,TXN-000074,2026-01-21,transfer,4767.06,Amazon,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,Sweta Bajaj,savings,Hyderabad_Hitech,verified,200000.0,False,,False,False,False,normal
+ACC-00034,TXN-000075,2026-02-21,withdrawal,14488.68,ATM,London,True,2026-07-18 11:43:36.173501,transactions.csv,Indira Rajan,current,Hyderabad_Hitech,expired,200000.0,False,,False,False,True,suspicious
+ACC-00058,TXN-000076,2026-03-19,payment,21055.6,Airtel,New York,True,2026-07-18 11:43:36.173501,transactions.csv,,,,,,True,,False,False,,normal
+ACC-00020,TXN-000077,2026-01-19,transfer,4334.84,BookMyShow,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,Usha Agarwal,NRI,Hyderabad_Hitech,verified,500000.0,False,,False,False,False,normal
+ACC-00031,TXN-000078,2026-02-12,debit,3751.04,BookMyShow,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Akash Dhawan,current,Kolkata_Park,verified,100000.0,False,phishing,True,False,False,confirmed_fraud
+ACC-00011,TXN-000079,2026-01-20,payment,7166.9,Swiggy,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Manoj Tiwari,salary,Mumbai_Main,verified,1000000.0,False,,False,False,False,normal
+ACC-00011,TXN-000080,2026-01-08,debit,24844.64,MakeMyTrip,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Manoj Tiwari,salary,Mumbai_Main,verified,1000000.0,False,,False,False,False,normal
+ACC-00029,TXN-000081,2026-02-09,credit,807733.04,POS_Terminal,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Tanuja Nair,salary,Pune_FC,verified,100000.0,False,money_laundering,True,False,False,confirmed_fraud
+ACC-00043,TXN-000082,2026-02-11,credit,9354.23,IRCTC,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Kishore Mohan,NRI,Delhi_CP,pending,1000000.0,False,,False,False,True,suspicious
+ACC-00035,TXN-000083,2026-01-10,debit,10143.83,Airtel,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Tarun Bose,savings,Delhi_CP,expired,500000.0,False,,False,False,True,suspicious
+ACC-00030,TXN-000084,2026-01-11,debit,24255.25,IRCTC,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Bhaskar Menon,savings,Mumbai_Main,verified,50000.0,False,,False,True,False,suspicious
+ACC-00022,TXN-000085,2026-03-21,transfer,11874.07,BookMyShow,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Poonam Yadav,NRI,Bangalore_MG,verified,1000000.0,False,,False,False,False,normal
+ACC-00043,TXN-000086,2026-03-05,withdrawal,8500.18,Flipkart,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Kishore Mohan,NRI,Delhi_CP,pending,1000000.0,False,,False,False,True,suspicious
+ACC-00003,TXN-000087,2026-03-05,payment,2966.06,Amazon,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Anil Reddy,current,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00040,TXN-000088,2026-01-27,withdrawal,8966.97,Unknown_Merchant,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Padma Iyengar,NRI,Chennai_T_Nagar,verified,200000.0,False,,False,False,False,normal
+ACC-00039,TXN-000089,2026-01-21,payment,13184.52,Wire_Transfer,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Arun Hegde,current,Chennai_T_Nagar,verified,100000.0,False,,False,False,False,normal
+ACC-00013,TXN-000090,2026-01-01,payment,21243.81,ATM,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Ashok Sinha,savings,Kolkata_Park,verified,50000.0,False,,False,False,False,normal
+ACC-00033,TXN-000091,2026-01-13,withdrawal,7978.06,MakeMyTrip,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Ramesh Shetty,current,Delhi_CP,verified,100000.0,False,,False,False,False,normal
+ACC-00004,TXN-000092,2026-02-22,withdrawal,3741.25,Unknown_Merchant,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Meena Iyer,NRI,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00024,TXN-000093,2026-02-13,debit,7152.03,BigBasket,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Savita Kulkarni,NRI,Pune_FC,verified,200000.0,False,,False,False,False,normal
+ACC-00029,TXN-000094,2026-03-28,debit,5431.59,Crypto_Exchange,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Tanuja Nair,salary,Pune_FC,verified,100000.0,False,money_laundering,True,False,False,confirmed_fraud
+ACC-00048,TXN-000095,2026-02-14,transfer,4136.57,POS_Terminal,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Sweta Bajaj,savings,Hyderabad_Hitech,verified,200000.0,False,,False,False,False,normal
+ACC-00047,TXN-000096,2026-01-14,payment,14968.5,Swiggy,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,Pawan Arora,savings,Hyderabad_Hitech,pending,100000.0,False,,False,False,True,suspicious
+ACC-00020,TXN-000097,2026-03-16,transfer,1699.59,MakeMyTrip,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Usha Agarwal,NRI,Hyderabad_Hitech,verified,500000.0,False,,False,False,False,normal
+ACC-00006,TXN-000098,2026-02-01,transfer,10392.12,IRCTC,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Kavita Joshi,NRI,Kolkata_Park,verified,200000.0,False,,False,False,False,normal
+ACC-00046,TXN-000099,2026-01-19,credit,4690.86,PhonePe,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Mala Srinivasan,NRI,Bangalore_MG,verified,50000.0,False,,False,False,False,normal
+ACC-00036,TXN-000100,2026-01-16,transfer,20872.9,BookMyShow,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Deepa Pillai,NRI,Pune_FC,pending,100000.0,False,,False,False,True,suspicious
+ACC-00059,TXN-000101,2026-02-24,credit,540260.02,Amazon,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,,,,,,True,,False,False,,normal
+ACC-00017,TXN-000102,2026-03-10,withdrawal,3148.21,ATM,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Ravi Pandey,NRI,Pune_FC,verified,50000.0,False,account_takeover,True,False,False,confirmed_fraud
+ACC-00027,TXN-000103,2026-02-06,credit,759.64,Wire_Transfer,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Shreya Gupta,savings,Chennai_T_Nagar,verified,200000.0,False,,False,False,False,normal
+ACC-00032,TXN-000104,2026-03-03,transfer,14547.59,MakeMyTrip,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Neelam Kaur,salary,Pune_FC,verified,100000.0,False,,False,False,False,normal
+ACC-00017,TXN-000105,2026-03-21,withdrawal,24357.76,Unknown_Merchant,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Ravi Pandey,NRI,Pune_FC,verified,50000.0,False,account_takeover,True,False,False,confirmed_fraud
+ACC-00024,TXN-000106,2026-03-17,payment,487.75,BookMyShow,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Savita Kulkarni,NRI,Pune_FC,verified,200000.0,False,,False,False,False,normal
+ACC-00038,TXN-000107,2026-01-02,transfer,11553.05,POS_Terminal,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Sushma Thakur,current,Bangalore_MG,verified,1000000.0,False,card_cloning,True,False,False,confirmed_fraud
+ACC-00023,TXN-000108,2026-01-06,transfer,9061.03,ATM,London,True,2026-07-18 11:43:36.173501,transactions.csv,Dinesh Wadhwa,salary,Chennai_T_Nagar,pending,50000.0,False,,False,False,True,suspicious
+ACC-00004,TXN-000109,2026-02-10,payment,15991.72,Flipkart,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Meena Iyer,NRI,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00013,TXN-000110,2026-03-25,credit,19129.0,MakeMyTrip,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Ashok Sinha,savings,Kolkata_Park,verified,50000.0,False,,False,False,False,normal
+ACC-00035,TXN-000111,2026-02-11,transfer,6822.9,POS_Terminal,London,True,2026-07-18 11:43:36.173501,transactions.csv,Tarun Bose,savings,Delhi_CP,expired,500000.0,False,,False,False,True,suspicious
+ACC-00007,TXN-000112,2026-03-18,transfer,20591.7,Amazon,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Prakash Rao,NRI,Pune_FC,expired,500000.0,False,,False,False,True,suspicious
+ACC-00034,TXN-000113,2026-02-10,withdrawal,10329.26,Crypto_Exchange,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Indira Rajan,current,Hyderabad_Hitech,expired,200000.0,False,,False,False,True,suspicious
+ACC-00007,TXN-000114,2026-01-07,payment,5566.78,Uber,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Prakash Rao,NRI,Pune_FC,expired,500000.0,False,,False,False,True,suspicious
+ACC-00040,TXN-000115,2026-03-23,payment,17828.05,POS_Terminal,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Padma Iyengar,NRI,Chennai_T_Nagar,verified,200000.0,False,,False,False,False,normal
+ACC-00027,TXN-000116,2026-01-15,debit,20480.18,Crypto_Exchange,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Shreya Gupta,savings,Chennai_T_Nagar,verified,200000.0,False,,False,False,False,normal
+ACC-00031,TXN-000117,2026-02-12,transfer,3518.4,Unknown_Merchant,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Akash Dhawan,current,Kolkata_Park,verified,100000.0,False,phishing,True,False,False,confirmed_fraud
+ACC-00034,TXN-000118,2026-02-25,credit,17761.88,Amazon,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Indira Rajan,current,Hyderabad_Hitech,expired,200000.0,False,,False,False,True,suspicious
+ACC-00015,TXN-000119,2026-03-05,credit,17216.78,BookMyShow,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Vijay Malhotra,NRI,Hyderabad_Hitech,verified,100000.0,False,,False,False,False,normal
+ACC-00014,TXN-000120,2026-01-05,withdrawal,17285.91,Wire_Transfer,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Priti Chauhan,current,Chennai_T_Nagar,pending,100000.0,False,,False,False,True,suspicious
+ACC-00005,TXN-000121,2026-02-01,withdrawal,563775.41,Flipkart,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Suresh Patel,current,Hyderabad_Hitech,expired,50000.0,False,,False,False,True,suspicious
+ACC-00043,TXN-000122,2026-03-17,debit,11753.6,Crypto_Exchange,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Kishore Mohan,NRI,Delhi_CP,pending,1000000.0,False,,False,False,True,suspicious
+ACC-00003,TXN-000123,2026-02-03,debit,18876.03,Wire_Transfer,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Anil Reddy,current,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00039,TXN-000124,2026-03-07,credit,4660.31,BigBasket,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Arun Hegde,current,Chennai_T_Nagar,verified,100000.0,False,,False,False,False,normal
+ACC-00006,TXN-000125,2026-03-05,transfer,23722.35,BigBasket,London,True,2026-07-18 11:43:36.173501,transactions.csv,Kavita Joshi,NRI,Kolkata_Park,verified,200000.0,False,,False,False,False,normal
+ACC-00053,TXN-000126,2026-03-28,payment,6083.47,MakeMyTrip,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,,,,,,True,,False,False,,normal
+ACC-00007,TXN-000127,2026-03-27,debit,13244.53,POS_Terminal,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,Prakash Rao,NRI,Pune_FC,expired,500000.0,False,,False,False,True,suspicious
+ACC-00019,TXN-000128,2026-03-06,debit,24340.82,Flipkart,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,Gopal Das,savings,Chennai_T_Nagar,expired,200000.0,False,,False,True,True,suspicious
+ACC-00033,TXN-000129,2026-03-28,withdrawal,9193.25,MakeMyTrip,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Ramesh Shetty,current,Delhi_CP,verified,100000.0,False,,False,False,False,normal
+ACC-00029,TXN-000130,2026-01-22,credit,20876.82,PhonePe,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Tanuja Nair,salary,Pune_FC,verified,100000.0,False,money_laundering,True,False,False,confirmed_fraud
+ACC-00014,TXN-000131,2026-01-17,withdrawal,2865.49,BigBasket,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Priti Chauhan,current,Chennai_T_Nagar,pending,100000.0,False,,False,False,True,suspicious
+ACC-00030,TXN-000132,2026-03-04,credit,12420.61,BigBasket,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Bhaskar Menon,savings,Mumbai_Main,verified,50000.0,False,,False,False,False,normal
+ACC-00036,TXN-000133,2026-01-24,debit,8236.48,Flipkart,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Deepa Pillai,NRI,Pune_FC,pending,100000.0,False,,False,False,True,suspicious
+ACC-00019,TXN-000134,2026-03-15,transfer,17191.81,Unknown_Merchant,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Gopal Das,savings,Chennai_T_Nagar,expired,200000.0,False,,False,False,True,suspicious
+ACC-00015,TXN-000135,2026-02-18,transfer,24624.81,PhonePe,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,Vijay Malhotra,NRI,Hyderabad_Hitech,verified,100000.0,False,,False,True,False,suspicious
+ACC-00005,TXN-000136,2026-02-27,transfer,243437.83,ATM,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Suresh Patel,current,Hyderabad_Hitech,expired,50000.0,False,,False,True,True,suspicious
+ACC-00044,TXN-000137,2026-02-04,withdrawal,13090.43,ATM,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Vandana Rastogi,current,Pune_FC,rejected,200000.0,False,money_laundering,True,False,True,confirmed_fraud
+ACC-00008,TXN-000138,2026-02-05,withdrawal,17391.18,Flipkart,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Lata Mishra,salary,Mumbai_Main,verified,100000.0,False,,False,False,False,normal
+ACC-00005,TXN-000139,2026-01-12,transfer,5046.57,Unknown_Merchant,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Suresh Patel,current,Hyderabad_Hitech,expired,50000.0,False,,False,False,True,suspicious
+ACC-00008,TXN-000140,2026-02-08,withdrawal,6999.03,POS_Terminal,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Lata Mishra,salary,Mumbai_Main,verified,100000.0,False,,False,False,False,normal
+ACC-00038,TXN-000141,2026-03-09,withdrawal,1034145.96,ATM,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Sushma Thakur,current,Bangalore_MG,verified,1000000.0,False,card_cloning,True,False,False,confirmed_fraud
+ACC-00026,TXN-000142,2026-03-16,transfer,3726.98,Airtel,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Kunal Mehta,savings,Hyderabad_Hitech,verified,200000.0,False,,False,False,False,normal
+ACC-00008,TXN-000143,2026-02-09,withdrawal,5809.0,Swiggy,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Lata Mishra,salary,Mumbai_Main,verified,100000.0,False,,False,False,False,normal
+ACC-00007,TXN-000144,2026-01-24,debit,12478.47,Amazon,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Prakash Rao,NRI,Pune_FC,expired,500000.0,False,,False,False,True,suspicious
+ACC-00025,TXN-000145,2026-03-20,transfer,3860.78,MakeMyTrip,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Hemant Jain,NRI,Hyderabad_Hitech,verified,500000.0,False,,False,False,False,normal
+ACC-00007,TXN-000146,2026-01-25,payment,19200.92,Unknown_Merchant,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Prakash Rao,NRI,Pune_FC,expired,500000.0,False,,False,False,True,suspicious
+ACC-00013,TXN-000147,2026-03-10,withdrawal,12281.75,BookMyShow,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Ashok Sinha,savings,Kolkata_Park,verified,50000.0,False,,False,False,False,normal
+ACC-00022,TXN-000148,2026-03-26,payment,490.88,Wire_Transfer,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Poonam Yadav,NRI,Bangalore_MG,verified,1000000.0,False,,False,False,False,normal
+ACC-00028,TXN-000149,2026-02-04,withdrawal,7898.25,PhonePe,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Rituraj Singh,NRI,Delhi_CP,verified,1000000.0,False,,False,False,False,normal
+ACC-00030,TXN-000150,2026-01-02,credit,13938.83,Unknown_Merchant,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Bhaskar Menon,savings,Mumbai_Main,verified,50000.0,False,,False,False,False,normal
+ACC-00053,TXN-000151,2026-02-16,credit,7845.87,PhonePe,New York,True,2026-07-18 11:43:36.173501,transactions.csv,,,,,,True,,False,False,,normal
+ACC-00049,TXN-000152,2026-03-04,withdrawal,16518.96,ATM,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Nilesh Parekh,current,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00037,TXN-000153,2026-02-16,payment,21366.07,IRCTC,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Naveen Chadha,salary,Kolkata_Park,expired,50000.0,False,,False,False,True,suspicious
+ACC-00026,TXN-000154,2026-02-09,payment,24273.23,MakeMyTrip,London,True,2026-07-18 11:43:36.173501,transactions.csv,Kunal Mehta,savings,Hyderabad_Hitech,verified,200000.0,False,,False,True,False,suspicious
+ACC-00050,TXN-000155,2026-02-10,debit,752.27,Amazon,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Chitra Venkatesh,savings,Chennai_T_Nagar,pending,200000.0,False,,False,False,True,suspicious
+ACC-00024,TXN-000156,2026-03-12,payment,721.15,Crypto_Exchange,London,True,2026-07-18 11:43:36.173501,transactions.csv,Savita Kulkarni,NRI,Pune_FC,verified,200000.0,False,,False,False,False,normal
+ACC-00025,TXN-000157,2026-02-04,transfer,24799.04,PhonePe,London,True,2026-07-18 11:43:36.173501,transactions.csv,Hemant Jain,NRI,Hyderabad_Hitech,verified,500000.0,False,,False,True,False,suspicious
+ACC-00004,TXN-000158,2026-01-22,credit,5903.82,BookMyShow,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Meena Iyer,NRI,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00006,TXN-000159,2026-01-23,transfer,2906.06,Swiggy,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Kavita Joshi,NRI,Kolkata_Park,verified,200000.0,False,,False,False,False,normal
+ACC-00035,TXN-000160,2026-01-11,withdrawal,16461.31,PhonePe,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Tarun Bose,savings,Delhi_CP,expired,500000.0,False,,False,False,True,suspicious
+ACC-00033,TXN-000161,2026-02-14,debit,1543937.71,MakeMyTrip,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Ramesh Shetty,current,Delhi_CP,verified,100000.0,False,,False,False,False,normal
+ACC-00021,TXN-000162,2026-03-13,withdrawal,8094.41,Flipkart,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Sanjay Bhat,NRI,Chennai_T_Nagar,pending,1000000.0,False,card_cloning,True,False,True,confirmed_fraud
+ACC-00007,TXN-000163,2026-03-23,credit,8432.39,IRCTC,London,True,2026-07-18 11:43:36.173501,transactions.csv,Prakash Rao,NRI,Pune_FC,expired,500000.0,False,,False,False,True,suspicious
+ACC-00011,TXN-000164,2026-02-20,transfer,24237.22,Uber,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Manoj Tiwari,salary,Mumbai_Main,verified,1000000.0,False,,False,True,False,suspicious
+ACC-00041,TXN-000165,2026-01-28,payment,5391.3,BookMyShow,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Rohit Saxena,savings,Bangalore_MG,rejected,500000.0,False,,False,False,True,suspicious
+ACC-00020,TXN-000166,2026-02-19,credit,15633.08,Flipkart,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Usha Agarwal,NRI,Hyderabad_Hitech,verified,500000.0,False,,False,False,False,normal
+ACC-00007,TXN-000167,2026-02-19,transfer,1728.38,Wire_Transfer,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Prakash Rao,NRI,Pune_FC,expired,500000.0,False,,False,False,True,suspicious
+ACC-00031,TXN-000168,2026-01-14,transfer,19901.51,ATM,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Akash Dhawan,current,Kolkata_Park,verified,100000.0,False,phishing,True,False,False,confirmed_fraud
+ACC-00033,TXN-000169,2026-02-26,withdrawal,16603.24,BigBasket,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,Ramesh Shetty,current,Delhi_CP,verified,100000.0,False,,False,False,False,normal
+ACC-00027,TXN-000170,2026-02-13,payment,12908.46,ATM,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Shreya Gupta,savings,Chennai_T_Nagar,verified,200000.0,False,,False,False,False,normal
+ACC-00012,TXN-000171,2026-03-01,payment,21574.61,MakeMyTrip,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Rekha Bansal,NRI,Bangalore_MG,rejected,50000.0,False,identity_theft,True,False,True,confirmed_fraud
+ACC-00014,TXN-000172,2026-03-22,withdrawal,6735.0,ATM,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Priti Chauhan,current,Chennai_T_Nagar,pending,100000.0,False,,False,False,True,suspicious
+ACC-00040,TXN-000173,2026-02-28,payment,18179.05,Amazon,Tokyo,True,2026-07-18 11:43:36.173501,transactions.csv,Padma Iyengar,NRI,Chennai_T_Nagar,verified,200000.0,False,,False,False,False,normal
+ACC-00013,TXN-000174,2026-02-12,credit,6047.33,POS_Terminal,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Ashok Sinha,savings,Kolkata_Park,verified,50000.0,False,,False,False,False,normal
+ACC-00028,TXN-000175,2026-02-14,debit,15866.49,Unknown_Merchant,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Rituraj Singh,NRI,Delhi_CP,verified,1000000.0,False,,False,False,False,normal
+ACC-00055,TXN-000176,2026-02-27,credit,6448.34,MakeMyTrip,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,,,,,,True,money_laundering,True,False,,confirmed_fraud
+ACC-00026,TXN-000177,2026-01-08,credit,4838.3,Uber,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Kunal Mehta,savings,Hyderabad_Hitech,verified,200000.0,False,,False,False,False,normal
+ACC-00030,TXN-000178,2026-03-16,withdrawal,10579.38,Crypto_Exchange,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Bhaskar Menon,savings,Mumbai_Main,verified,50000.0,False,,False,False,False,normal
+ACC-00013,TXN-000179,2026-02-06,credit,777.09,Wire_Transfer,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Ashok Sinha,savings,Kolkata_Park,verified,50000.0,False,,False,False,False,normal
+ACC-00043,TXN-000180,2026-01-18,debit,24096.48,Airtel,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Kishore Mohan,NRI,Delhi_CP,pending,1000000.0,False,,False,False,True,suspicious
+ACC-00004,TXN-000181,2026-01-28,transfer,1402399.61,Unknown_Merchant,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Meena Iyer,NRI,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00027,TXN-000182,2026-03-12,debit,9952.53,Unknown_Merchant,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Shreya Gupta,savings,Chennai_T_Nagar,verified,200000.0,False,,False,False,False,normal
+ACC-00016,TXN-000183,2026-03-04,payment,23326.74,IRCTC,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Asha Verma,NRI,Chennai_T_Nagar,expired,200000.0,False,,False,False,True,suspicious
+ACC-00050,TXN-000184,2026-02-17,withdrawal,22119.89,Uber,Chennai,False,2026-07-18 11:43:36.173501,transactions.csv,Chitra Venkatesh,savings,Chennai_T_Nagar,pending,200000.0,False,,False,False,True,suspicious
+ACC-00008,TXN-000185,2026-02-25,transfer,20816.74,POS_Terminal,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Lata Mishra,salary,Mumbai_Main,verified,100000.0,False,,False,False,False,normal
+ACC-00048,TXN-000186,2026-01-24,withdrawal,5489.31,Flipkart,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Sweta Bajaj,savings,Hyderabad_Hitech,verified,200000.0,False,,False,False,False,normal
+ACC-00014,TXN-000187,2026-02-09,withdrawal,6394.93,MakeMyTrip,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Priti Chauhan,current,Chennai_T_Nagar,pending,100000.0,False,,False,False,True,suspicious
+ACC-00032,TXN-000188,2026-02-18,debit,7946.42,PhonePe,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Neelam Kaur,salary,Pune_FC,verified,100000.0,False,,False,False,False,normal
+ACC-00044,TXN-000189,2026-02-08,credit,9106.8,POS_Terminal,London,True,2026-07-18 11:43:36.173501,transactions.csv,Vandana Rastogi,current,Pune_FC,rejected,200000.0,False,money_laundering,True,False,True,confirmed_fraud
+ACC-00020,TXN-000190,2026-03-01,payment,918.5,POS_Terminal,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Usha Agarwal,NRI,Hyderabad_Hitech,verified,500000.0,False,,False,False,False,normal
+ACC-00045,TXN-000191,2026-03-26,credit,6361.92,PhonePe,Dubai,True,2026-07-18 11:43:36.173501,transactions.csv,Jagdish Patil,savings,Chennai_T_Nagar,verified,50000.0,False,,False,False,False,normal
+ACC-00041,TXN-000192,2026-02-23,debit,13396.02,Uber,New York,True,2026-07-18 11:43:36.173501,transactions.csv,Rohit Saxena,savings,Bangalore_MG,rejected,500000.0,False,,False,False,True,suspicious
+ACC-00025,TXN-000193,2026-02-01,transfer,7557.16,Crypto_Exchange,Lagos,True,2026-07-18 11:43:36.173501,transactions.csv,Hemant Jain,NRI,Hyderabad_Hitech,verified,500000.0,False,,False,False,False,normal
+ACC-00020,TXN-000194,2026-01-07,withdrawal,15802.25,Crypto_Exchange,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Usha Agarwal,NRI,Hyderabad_Hitech,verified,500000.0,False,,False,False,False,normal
+ACC-00003,TXN-000195,2026-01-09,withdrawal,11803.73,PhonePe,London,True,2026-07-18 11:43:36.173501,transactions.csv,Anil Reddy,current,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00046,TXN-000196,2026-01-14,credit,17477.13,IRCTC,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Mala Srinivasan,NRI,Bangalore_MG,verified,50000.0,False,,False,False,False,normal
+ACC-00023,TXN-000197,2026-03-14,payment,18457.75,Airtel,Mumbai,False,2026-07-18 11:43:36.173501,transactions.csv,Dinesh Wadhwa,salary,Chennai_T_Nagar,pending,50000.0,False,,False,False,True,suspicious
+ACC-00049,TXN-000198,2026-03-02,credit,15772.4,Wire_Transfer,Bangalore,False,2026-07-18 11:43:36.173501,transactions.csv,Nilesh Parekh,current,Bangalore_MG,verified,100000.0,False,,False,False,False,normal
+ACC-00001,TXN-000199,2026-01-13,transfer,7877.36,Flipkart,Delhi,False,2026-07-18 11:43:36.173501,transactions.csv,Rajesh Kapoor,savings,Mumbai_Main,pending,1000000.0,False,,False,False,True,suspicious
+ACC-00011,TXN-000200,2026-03-08,credit,21181.66,ATM,Singapore,True,2026-07-18 11:43:36.173501,transactions.csv,Manoj Tiwari,salary,Mumbai_Main,verified,1000000.0,False,,False,False,False,normal
